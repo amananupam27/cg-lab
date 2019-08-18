@@ -8,6 +8,7 @@ int i;
 int gd=DETECT,gm,x,y,x1,y1,x2,y2;
 float m;
 initgraph(&gd, &gm,"C:\\TURBOC3\\BGI");
+printf("DDA ALGORITHM\n");
 printf("Enter x1=");
 scanf("%d",&x1);
 printf("Enter y1=");
